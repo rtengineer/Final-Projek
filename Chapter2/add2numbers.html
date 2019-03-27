@@ -1,0 +1,110 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chapter II || Manzola Caniago</title>
+
+     <!-- ================================================== -->
+     <link rel="icon" href="../images/icon.png" type="image/x-icon">
+     <!-- ================================================== -->
+     <!-- ================================================== -->
+    <link rel="stylesheet" href="../css/main.css">
+
+</head>
+<body>
+
+
+    <!--  -->
+          <div class="menu" id="menu">
+                <div class="container">
+                  <div class="wrapper">
+                      <img class="calc-logo" src="../images/Untitled-2.png" alt="calculater">
+                      <p><a href="../index.html"><img class="back-left"  src="../images/left-arrow.png" alt="Back"></a>
+                      </p>
+                  </div>
+                </div>
+              </div>
+    <!--  -->
+
+    <section class="calc-yaya">
+        <div class="container text-center" id="calc">
+                <div class="calcBG text-center">
+                  <div class="row">
+                        <img class="logo-calc" src="../images/logo-01.png__vzu2vhp2VRX+ewg7J0bPlaA0f4f1c19c0064d527c72d44cfe007a08" alt="Logo">
+                        <h1 class="logo-calc1">JavaScript Development Circles Batch 8</h1>
+                    </div>
+                  <div class="row" id="result">
+                    <form name="calc">
+                      <input type="text" class="screen text-right" name="result" readonly>
+                    </form>
+                  </div>
+                  <div class="row">
+                    <button id="allClear" type="button" class="btn btn-danger" onclick="clearScreen()">AC</button>
+                    <button id="clear" type="button" class="btn btn-warning" onclick="clearScreen()">CE</button>
+                    <button id="%" type="button" class="btn btn-info" onclick="myFunction(this.id)">%</button>
+                    <button id="/" type="button" class="btn btn-info" onclick="myFunction(this.id)">÷</button>
+                  </div>
+                  <div class="row">
+                    <button id="7" type="button" class="btn btn-info" onclick="myFunction(this.id)">7</button>
+                    <button id="8" type="button" class="btn btn-info" onclick="myFunction(this.id)">8</button>
+                    <button id="9" type="button" class="btn btn-info" onclick="myFunction(this.id)">9</button>
+                    <button id="*" type="button" class="btn btn-info" onclick="myFunction(this.id)">x</button>
+                  </div>
+                  <div class="row">
+                    <button id="4" type="button" class="btn btn-info" onclick="myFunction(this.id)">4</button>
+                    <button id="5" type="button" class="btn btn-info" onclick="myFunction(this.id)">5</button>
+                    <button id="6" type="button" class="btn btn-info" onclick="myFunction(this.id)">6</button>
+                    <button id="-" type="button" class="btn btn-info" onclick="myFunction(this.id)">-</button>
+                  </div>
+                  <div class="row">
+                    <button id="1" type="button" class="btn btn-info" onclick="myFunction(this.id)">1</button>
+                    <button id="2" type="button" class="btn btn-info" onclick="myFunction(this.id)">2</button>
+                    <button id="3" type="button" class="btn btn-info" onclick="myFunction(this.id)">3</button>
+                    <button id="+" type="button" class="btn btn-info" onclick="myFunction(this.id)">+</button>
+                  </div>
+                  <div class="row">
+                    <button id="0" type="button" class="btn btn-info" onclick="myFunction(this.id)">0</button>
+                    <button id="." type="button" class="btn btn-info" onclick="myFunction(this.id)">.</button>
+                    <button id="equals" type="button" class="btn btn-success" onclick="calculate()">=</button>
+                    <button id="blank" type="button" class="btn btn-info">&nbsp;</button><hr>
+                    <b class="sts"> Status :</b> <label id="message"></label>
+                  </div>
+                </div>
+            </div>
+
+               <p id="load">Developer Circles from Facebook  &copy; Manzola Caniago</p>    
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-md-offset-1">
+                  <h6>Powered By : </h6>
+                  <img class="foot-1" src="../images/logo-01.png__vzu2vhp2VRX+ewg7J0bPlaA0f4f1c19c0064d527c72d44cfe007a08" alt="Hacktiv8">
+                  <img class="foot-2" src="../images/devc.png" alt="DevC">
+                </div>
+             <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                  <p class="copyright-text">2019  &copy; All Rights Reserved || 
+               <a href="#">Privacy & Terms</a>.
+                  </p>
+                </div>
+      </footer>
+      <!-- end -->
+
+      
+
+
+          <!-- JavaScript Author by Manzola Caniago  -->
+            <script src="../js/add2numbers.js"></script>
+            <script src="../js/load.js"></script>
+
+
+</body>
+</html>
