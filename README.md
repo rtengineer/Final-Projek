@@ -1,5 +1,4 @@
 # JavaScript Development Circles Course Batch 8
-Site : https://zonaloe.firebaseapp.com/
 Note : Desktop / Android / IOS Responsive
 # Chapter 4
 JavaScript Tools dan Jquery.
